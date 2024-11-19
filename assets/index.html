@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="mediaqueries.css" />
+    </head>
+    <body>
+        <nav id="desktop-nav">
+        <div class="logo">Lampros Michael</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        </nav>
+        <nav id="hamburger-nav">
+    <div class="logo">Lampros Michael</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links ">
+            <li><a href="#about"  onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience"  onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#contact"  onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </div> 
+        </nav>
+        <section id="profile">
+      <div class="section__pic-container">
+        <img class="la" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462547719_429812346844203_390654473813778386_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=aWnW7bjN4LgQ7kNvgH-3DcC&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QGb9NCp_Gc4Slx0saOME_m_OmujF3la1a0fTz23Fq2SYA&oe=6761472D" alt="Lampros Michael profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Lampros Michael</h1>
+        <p class="section__text__2">Frontend Developer</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('')">
+                    Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href=''">
+                Contact Info
+        </button>
+        </div>
+        <div id="socials-container">
+            <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-1024.png" alt="My Instagram profile" class="icon" onclick="location.href='https://Instagram.com/'" />
+            <img src="https://tangerine-hummingbird-1479b6.netlify.app/assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/'" />
+        </div>
+        </div>
+        </section>
+        <section id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img class="laa" src="https://instagram.fath2-1.fna.fbcdn.net/v/t1.15752-9/462564879_926235969433138_1615287716633641506_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=YGCyPY54JMAQ7kNvgFGCtyG&_nc_zt=23&_nc_ht=instagram.fath2-1.fna&oh=03_Q7cD1QGDx8-F1no5PRszIkc92gMy0xXo74Ne5G51LR8AGeaE_A&oe=6762C71C" alt="Lampros Michael profile picture1" />
+                </div>
+                    <div class="about-details-container">
+                        <div class="about-containers">
+                            <div class="details-container">
+                                <img class="icon" src="https://www.wtso.com/assets/images/Contact-Us-ICONS-PRIME-SELECTION.png" alt="Experience icon"/>
+                                <h3>Experience</h3>
+                                <p>1 year <br> Frontend Developer</p> 
+                            </div>
+                            <div class="details-container">
+                                <img class="icon" src="https://th.bing.com/th/id/OIP.RX5PyokBdBettC6r9HUyVQHaFy?rs=1&pid=ImgDetMain" alt="Education icon">
+                                <h3>Education</h3>
+                                <p>High School Degree in Computer Science</p> 
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            I’m a passionate and hardworking individual with a strong dedication to delivering high-quality results. 
+                            While I may not have years of professional experience, I make up for it with my eagerness to learn, attention to detail, and commitment to client satisfaction. My focus is on building trust 
+                            and delivering work that exceeds expectations. I’d love the opportunity to work with you and help bring your ideas to life!
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <img onclick="location.href='./#experience'" class="icon arrow" src="https://th.bing.com/th/id/OIP.B2EwoIwkuYLbEKkKdApr7QHaHa?rs=1&pid=ImgDetMain" alt="Arrow icon">
+        </section>
+        <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="https://th.bing.com/th/id/OIP.qmkACrYa7pFdTtBPyZVrvwAAAA?rs=1&pid=ImgDetMain" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="https://th.bing.com/th/id/OIP.qmkACrYa7pFdTtBPyZVrvwAAAA?rs=1&pid=ImgDetMain" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="https://th.bing.com/th/id/OIP.qmkACrYa7pFdTtBPyZVrvwAAAA?rs=1&pid=ImgDetMain" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="https://th.bing.com/th/id/OIP.qmkACrYa7pFdTtBPyZVrvwAAAA?rs=1&pid=ImgDetMain" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>PostgreSQL</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="https://th.bing.com/th/id/OIP.qmkACrYa7pFdTtBPyZVrvwAAAA?rs=1&pid=ImgDetMain" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Express JS</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img onclick="location.href='./#contact'" class="icon arrow" src="https://th.bing.com/th/id/OIP.B2EwoIwkuYLbEKkKdApr7QHaHa?rs=1&pid=ImgDetMain" alt="Arrow icon">
+        </section>
+        <section id="contact">
+            <p class="section__text__p1">Get In Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="https://static.vecteezy.com/system/resources/previews/046/719/190/non_2x/email-icon-glyph-icon-for-your-website-mobile-presentation-and-logo-design-vector.jpg" alt="Email icon" class="icon contact-icon email-icon" >
+                    <p><a href="mailto:lampros.michahl@gmail.com">lampros.michahl@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-1024.png" alt="My Instagram profile" class="icon contact-icon" >
+                    <p><a href="https://www.instagram.com/lampros.mixail/">Instagram</a></p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+   </body>
+</html>
+
